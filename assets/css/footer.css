@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-main {
+    display: flex;
+    background-color: #323232;
+    padding: 50px 200px 50px 200px;
+}
+
+#footer-set1,
+#footer-set2,
+#footer-set3 {
+    width: 30%;
+}
+
+.footer-set {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 400px;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+
+.description {
+    color: #e7e7e7;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-shadow: 0 0 1px #e7e7e7;
+}
+
+.footer-set-title {
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0 0 19px 0;
+}
+
+.contact-details-text {
+    color: #e7e7e7;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+#email {
+    background: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    border: 1px solid #e3e6ea;
+    color: #7b7b7b;
+    padding: 5px 10px 5px 10px;
+    font-family: Roboto, sans-serif;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 316px;
+    height: 49px;
+    position: relative;
+}
+
+#touch-button {
+    background-color: #46af6f;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    padding: 10px 27px 10px;
+    width: 200px;
+    height: 52px;
+    letter-spacing: 0.04em;
+    font-family: Poppins, sans-serif;
+    border: none;
+    margin-top: 15px;
+}
+
+.contact-details-icon {
+    width: 15px;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+.socialicon {
+    width: 14px;
+    height: auto;
+    filter: invert(100%);
+}
+
+.socialmedia {
+    border-radius: 100%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+    /* Adds smooth transition on hover */
+}
+
+.socialmediabox {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.socialmedia:hover {
+    transform: scale(1.2);
+    /* Scales up the icon on hover */
+}
+
+#footer-set2 {
+    margin-left: 70px;
+}
+
+#location {
+    margin-top: 25px;
+}
+
+.final-footer {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+#final-footer-1 {
+    margin-left: 10%;
+}
+
+#final-footer-2 {
+    margin-left: 30%;
+}
+
+#final-footer-3 {
+    margin-left: 10%;
+}
